@@ -1,0 +1,23 @@
+.post-card {
+   padding: 1rem;
+   border-radius: 0.5rem;
+   color:#ffff;
+   text-align: center;
+   transition: transform 250ms;
+}
+.post-card:hover{
+    cursor: pointer;
+    transform:translateY(5px);
+}
+.post-card-heading{
+    padding-bottom: 0.5rem;
+}
+.post-card-body{
+    font-size: 16px;
+}
+.post-list-body {
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+   gap: 16px;
+
+}

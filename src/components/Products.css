@@ -1,0 +1,16 @@
+.product-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color:#ffff;
+    text-align: center;
+    transition: transform 250ms;
+ }
+ .p-product-image{
+    height:200px;
+ }
+ .product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+ 
+ }
